@@ -1,0 +1,128 @@
+
+
+Spring Framework:
+=================
+
+	non-invasive and we can create light weight ,loosley coupled 
+
+
+									heavy weight  ,tightly coupled 
+
+
+
+		struts invasive predefined API
+
+		EJB--->ROD JOHNSON 			interface21-->spring 1.x spring 6.x
+		Servlet-->web  heavy weight 
+
+		1)implemetns Servlet 
+		2)extends GenericServlet
+		3)extends HttpServlet  -->11
+
+
+class login extends HttpServlet
+{
+
+
+
+
+}
+
+
+
+
+			A
+X
+
+A a=new A();
+
+
+		spring :
+			container :  BeanFactory,ApplicationContext--->interfaces jars 
+
+
+		a--	A->life cycle of a object 				configuration file		3.x
+		b--	B									1)XML config  springconfig.xml   <beans  <bean id="" class==""<property <constructor-arg name   autowire=""  
+			C									2)Annotation config
+												3)Java Config
+					.getBean("refname")
+				
+
+@Component				@Component/@Service/@Repository   @Configuration
+														@ComponentScan("service")			
+EmployeeDao			 EmployeeService 			EmployeeController
+												@Autowired
+							m1()				EmployeeService service;
+
+													service.m1()
+EntityManager
+database
+security
+NOTE:
+=====
+1)spring has given annotations for userdefined classes like 
+@Component/@Service/@Repository/@Configuration,@ComponentScan("service")	but not for predefined classes 
+
+		@Bean
+		public EntityManager getEntityManager()
+		{
+		
+		return em;
+		}
+		spring jpa hibernate oracle tomcat testing --->maven-->100 jars 
+		
+	1)configuration
+	2)maven dependecies 
+	3)server 
+
+SpringBOOT:
+==========
+	1)AutoConfigration :springboot has given config for most of the commonly used classes but not for all
+	2)EmbededServer    :internal server tomcat
+	3)Startars		   :starters   jars	 checking  springbootstarterdatajpa   starterparent
+	4)Actuators		   :urls/endpoints  insite 
+	
+	
+						/beans /health   /env 
+	
+	eclipse --->setup-->sts 
+
+
+WEBSERVICES:SOA
+===========		to make communication between two interoperable applications
+
+	phonepe,ATM
+			
+						SOAP     		REST
+
+			ATM cards				-->ANY atm machine
+				sbi atm card		 --> ICICI		info	---> SBI bank server 
+
+										java		common format			python
+
+													XML,JSON,PT,HTML,JS
+
+Employee emp=new Employee(1123,"sandeep",9000,"hyderabad") ----->{
+																"eid":1123,
+																	
+jackson api
+jax-b
+																	}
+EJB--->   JAVA <----> JAVA
+
+DCOm--->.net<--->.net
+
+RPC--->c,C++
+
+			rest
+		productmanagement     <--->python,postman,swagger..
+
+											json
+
+1)insert product
+2)update product
+3)delete product
+4)get product
+5)getAll products
+6)getAll products inbetween
+7)getALl products by category
