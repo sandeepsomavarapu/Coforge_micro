@@ -126,3 +126,57 @@ RPC--->c,C++
 5)getAll products
 6)getAll products inbetween
 7)getALl products by category
+
+
+
+https://stackabuse.com/guide-to-spring-data-jpa/
+
+
+
+beans -->list of all the beans configured in application
+
+health-->to check health status of application
+
+env -->env properties 
+
+info --->information related to spring application
+
+mappings -->to know the list of @requestmapping urls
+
+
+CORS:
+======
+
+
+@Crossorigin
+
+
+
+Microservices:
+==============
+	Microservices says decompose large project into smaller services later communicate the services 
+	
+	
+	
+	
+	
+	service registry service discovery
+	
+	
+	
+	
+	download zipkin server from here 
+	
+	https://search.maven.org/remote_content?g=io.zipkin&a=zipkin-server&v=LATEST&c=exec
+	
+	
+	
+	
+
+
+
+
+
+
+
+
